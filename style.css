@@ -1,0 +1,51 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+    --font-family: "Lexend Deca", sans-serif;
+    --font-family2: "Big Shoulders Display", sans-serif;
+}
+
+
+.conteiner {
+    height: 100vh;
+
+}
+
+div .row{
+    margin: 0px;
+}
+
+div .config-all {
+    width: 320px;
+}
+
+.config-all h2 {
+    color: white;
+}
+
+#config-left {
+    background-color: var(--Bright-orange);
+}
+
+.geral {
+    margin: 25px;
+    margin-top: 50px;
+}
+
+div .btn {
+    border-radius: 100px;
+    padding: 10px 25px;
+}
+
+
+#config-center {
+    background-color: var(--Dark-cyan);
+}
+
+#config-right {
+    background-color: var(--Very-dark-cyan);
+}
+
