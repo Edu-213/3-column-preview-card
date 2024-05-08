@@ -8,16 +8,9 @@
     --font-family2: "Big Shoulders Display", sans-serif;
 }
 
-
-.conteiner {
-        width: 100vw;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        
-
-
+.conteudo {
+    height: 100vh;
+    height: 100svh;
 }
 
 div .row{
@@ -28,24 +21,53 @@ div .config-all {
     width: 320px;
 }
 
+
+.config-all img {
+    width: 50px;
+    margin-bottom: 25px;
+}
+
 .config-all h2 {
     color: white;
+    margin-bottom: 20px;
+    font-size: 40px;
+    font-family: var(--font-family2);
+    text-transform: uppercase;
+}
+
+.config-all p {
+    color: var(--Transparent-white);
+    line-height: 30px;
+    margin-bottom: 25px;
 }
 
 #config-left {
     background-color: var(--Bright-orange);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .geral {
-    margin: 25px;
-
+    margin: 40px;
 }
 
 div .btn {
     border-radius: 100px;
     padding: 10px 25px;
+    font-weight: 500;
 }
 
+div .sedans {
+    color: var(--Bright-orange);
+}
+
+div .text {
+    color: var(--Dark-cyan);
+}
+
+div .luxury {
+    color: var(--Very-dark-cyan);
+}
 
 #config-center {
     background-color: var(--Dark-cyan);
@@ -53,5 +75,19 @@ div .btn {
 
 #config-right {
     background-color: var(--Very-dark-cyan);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
 }
 
+@media (min-width: 600px) {
+
+    #config-left {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+    }
+
+    #config-right {
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+}
